@@ -5,6 +5,7 @@ config_version=5
 
 config/name="Memory Aquarium"
 run/main_scene="res://main.tscn"
+config/icon="res://icon.svg"
 config/features=PackedStringArray("4.7", "GL Compatibility")
 run/max_fps=30
 
@@ -12,7 +13,9 @@ run/max_fps=30
 
 window/size/viewport_width=960
 window/size/viewport_height=660
-window/size/resizable=false
+window/size/resizable=true
+window/stretch/mode="canvas_items"
+window/stretch/aspect="keep"
 window/energy_saving/keep_screen_on=false
 
 [rendering]
